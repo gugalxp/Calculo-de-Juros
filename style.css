@@ -1,0 +1,66 @@
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(36, 36, 36);
+}
+
+label,
+th,
+td {
+    color: white;
+    font-size: 1.5em;
+}
+
+td:hover {
+    background: #5d5d5e4d;
+}
+
+h2 {
+    color: white;
+}
+
+.g-3 {
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+}
+
+.form-control {
+    font-size: 1.5rem;
+}
+
+.form-select {
+    font-size: 1.5rem;
+}
+
+.container {
+    margin-top: 3rem;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+}
+
+.btn-primary {
+    height: 4rem;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        box-shadow: 0 0 1rem 10px #47628a3d;
+    }
+    .btn-primary {
+        width: 8%;
+        height: 4rem;
+        font-size: 15px;
+    }
+    .g-3 {
+        margin-left: 11.3rem;
+        margin-right: 11.3rem;
+        margin-top: 7rem;
+        box-shadow: 0 0 1rem 10px #47628a3d;
+    }
+}
